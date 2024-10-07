@@ -1,0 +1,51 @@
+.image {
+  width: 200px;
+  height: 250px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  box-shadow: 1px 4px 3px lightgray;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.card:hover {
+  transition: all 0.4s;
+  box-shadow: 1px 4px 16px rgb(122, 121, 121);
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.title {
+  height: 80px;
+  text-align: center;
+}
+
+.detail {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fdb912;
+  color: #a90432;
+}
+
+.detail:hover {
+  background-color: #a90432;
+  color: #fdb912;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.price {
+  text-align: center;
+}
+
+.detail-button {
+  text-align: center;
+}

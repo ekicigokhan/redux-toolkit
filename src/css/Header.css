@@ -1,0 +1,46 @@
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-box {
+  width: 300px;
+  height: 25px;
+  box-shadow: 2px 2px 3px gray;
+  margin-right: 15px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid black;
+}
+
+.icon {
+  font-size: 25px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.icon:hover {
+  background-color: #fdb912;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.theme-and-basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

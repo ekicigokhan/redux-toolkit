@@ -1,0 +1,45 @@
+.drawer {
+  overflow: scroll;
+}
+
+.basket-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-info {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: antiquewhite;
+  border: 1px solid;
+  width: 100%;
+}
+
+.product-info h5 {
+  color: #a90432;
+}
+
+.remove-button {
+  border: none;
+  padding: 10px;
+  background-color: #a90432;
+  color: #fdb912;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #fdb912;
+  color: #a90432;
+  transition: all 0.4s;
+}

@@ -1,0 +1,29 @@
+.product-detail-image {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  padding: 30px;
+  margin-right: 50px;
+}
+
+.product-detail {
+  display: flex;
+}
+
+.add-to-basket-button {
+  margin: 15px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdb912;
+  color: #a90432;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.add-to-basket-button:hover {
+  background-color: #a90432;
+  color: #fdb912;
+  cursor: pointer;
+  transition: all 0.4s;
+}
